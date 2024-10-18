@@ -3,6 +3,11 @@
     font-family:"Calibri"
 }
 
+html
+{
+    scroll-behavior: smooth;
+}
+
 .container
 {
     background: #f5b731;
@@ -89,3 +94,73 @@
 {
     text-align: center;
 }
+
+.container .right .button
+{
+    text-align: center;
+}
+#educationtitlebutton
+{
+    background-color: #ffdc8a;
+    border: none;
+    color: black;
+    padding: 15px 15px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#educationtitlebutton:hover
+{
+    background-color: white;
+    animation: pulse 2s infinite;
+}
+
+#skillstitlebutton
+{
+    background-color: #ffdc8a;
+    border: none;
+    color: black;
+    padding: 15px 15px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#skillstitlebutton:hover
+{
+    background-color: white;
+    animation: pulse 2s infinite;
+}
+
+#experiencetitlebutton
+{
+    background-color: #ffdc8a;
+    border: none;
+    color: black;
+    padding: 15px 15px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#experiencetitlebutton:hover
+{
+    background-color: white;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
+
