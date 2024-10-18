@@ -1,0 +1,91 @@
+*
+{
+    font-family:"Calibri"
+}
+
+.container
+{
+    background: #f5b731;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.container .left
+{
+    background: #ffdc8a;
+}
+
+.container .left .text
+{
+    margin: 30px;
+    h1
+    {
+        font-size: 20px;
+    }
+}
+
+.container .left .picture
+{
+    margin: 30px;
+    img
+    {
+        height: auto;
+        width: 240px;
+    }
+}
+
+.container .right
+{
+    margin: 30px;
+}
+
+.container .right .details
+{
+    text-align: center;
+    background: #fffecf;
+    padding: 30px;
+}
+
+.education h2
+{
+    font-size: 20px;
+}
+
+.skills
+{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    text-align: center;
+}
+
+.container .right .educationtitle h1
+{
+    text-align: center;
+    border-top: 3px solid black;
+}
+
+.education
+{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.container .right .skillstitle
+{
+    text-align: center;
+    border-top: 3px solid black;
+}
+
+.container .right .experiencestitle
+{
+    text-align: center;
+    border-top: 3px solid black;
+}
+
+.experience
+{
+    text-align: center;
+}
